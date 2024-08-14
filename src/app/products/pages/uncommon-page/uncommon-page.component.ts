@@ -25,8 +25,8 @@ export class UncommonPageComponent {
     'pedro',
     'fernando',
     'hernando',
-    'melissa',
     'eduardo',
+    'melissa',
     'natalia',
   ];
   public clientsMap = {
@@ -38,4 +38,11 @@ export class UncommonPageComponent {
   unqueueClient() {
     this.clients.shift();
   }
+
+  // keyvalue pipe
+  public person = {
+    name: 'edgar',
+    age: 23,
+    address: 'my address',
+  };
 }
