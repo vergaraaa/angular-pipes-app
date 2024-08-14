@@ -1,0 +1,15 @@
+<p-panel header="Custom Pipes" class="p-2">
+  <p>Custom pipes - Created by {{'us' | toggleCase:isUpperCase}}</p>
+</p-panel>
+
+<p-toolbar>
+  <div class="p-toolbar-group-start">
+    <p-button (click)="toggleUpperCase()" label="ToggleCase" icon="pi pi-search"></p-button>
+  </div>
+
+  <div class="p-toolbar-group-end gap-2">
+    <p-button label="By name" icon="pi pi-sort" styleClass="p-button-success"></p-button>
+    <p-button label="By flying" icon="pi pi-sort" styleClass="p-button-danger"></p-button>
+    <p-button label="By color" icon="pi pi-sort" styleClass="p-button-help"></p-button>
+  </div>
+</p-toolbar>
